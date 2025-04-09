@@ -119,7 +119,7 @@ function exerciciorp04() {
 
 function exerciciorp05() {
 
-    let numero = parseInt(prompt("Digite um número para iniciar a contagem regressiva:"));
+    let numero = Number(prompt("Digite um número para iniciar a contagem regressiva:"));
 
     while (numero >= 0) {
         console.log(numero);
