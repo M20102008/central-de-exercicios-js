@@ -3,8 +3,8 @@
 // console.log("Hello World no console");
 
 let nome = "Matheus";
-const idade = 22;
-var cidade = "Ribeirão Pires";
+const idade = 16;
+var cidade = "são paulo";
 
 console.log(nome);
 console.log(idade);
