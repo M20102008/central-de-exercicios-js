@@ -128,3 +128,27 @@ function exerciciorp05() {
     console.log("Contagem regressiva concluída!");
 
 }
+
+function exerciciorp06() {
+
+    let numeroaleatorio = Math.floor(Math.random() * (100 - 1) + 1);
+
+    let tentativa
+
+    while (tentativa != numeroaleatorio) {
+
+        tentativa = prompt("Insira um numero: ");
+
+        if (numeroaleatorio > tentativa) {
+
+            alert("numero aleatorio maior. ")
+        } else if (numeroaleatorio < tentativa) {
+
+            alert("numero aleatorio menor. ")
+        } else {
+
+            alert("voce acertou")
+        }
+    }
+
+}
