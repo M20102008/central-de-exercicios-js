@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+
+
+    background: black;
+
+}
+
+h2,
+h3 {
+
+    color: white;
+
+}
+
+p {
+
+    color: white;
+}
+
+h1 {
+
+    text-align: center;
+    margin-top: 50px;
+    font-size: 70px;
+    font-family: "Orbitron";
+    color: red;
+}
+
+.condicionais {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.condicionais-2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.condicionais-3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+margin-top: 20px;
+}
+
+button {
+
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.center-condic {
+
+    text-align: center;
+    margin-top: 60px;
+    font-size: 48px;
+    font-family: "Orbitron";
+
+}
+
+.repeticoes-center {
+
+    text-align: center;
+    margin-top: 70px;
+    font-size: 50px;
+    font-family: "Orbitron";
+
+}
+
+.repeticoes-1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.repeticoes-2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.logs-container{
+
+    color: white;
+}

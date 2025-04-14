@@ -4,35 +4,35 @@ function exerc01() {
     let numero = prompt("Digite um número");
 
     if (numero > 0) {
-        console.log("Positivo");
+        alert("Positivo");
 
     }
     else {
         if (numero < 0) {
-            console.log("Negativo");
+            alert("Negativo");
         }
         else {
-            console.log("É zero")
+            alert("É zero")
         }
     }
-
+    gerarLog("Exercicios 2 execultado: " + new Date().toLocaleString() );
 }
 
 function exerc02() {
     let numero = prompt("Digite sua idade");
 
     if (numero > 18) {
-        console.log("Voce é de maior");
+        alert("Voce é de maior");
     }
     else {
         if (numero < 18) {
-            console.log("Voce e de menor");
+            alert("Voce e de menor");
         }
         else {
-            console.log("É de maior")
+            alert("É de maior")
         }
     }
-
+gerarLog("Exercicios 1 execultado: " + new Date().toLocaleString() );
 }
 
 function exerc03() {
@@ -40,11 +40,11 @@ function exerc03() {
     let numero = prompt("Digite um número");
 
     if (numero % 2 === 0) {
-        console.log("O número " + numero + " é par.");
+        alert("O número " + numero + " é par.");
     } else {
-        console.log("O número " + numero + " é ímpar.");
+        alert("O número " + numero + " é ímpar.");
     }
-
+    gerarLog("Exercicios 3 execultado: " + new Date().toLocaleString() );
 }
 
 function exerc04() {
@@ -52,86 +52,95 @@ function exerc04() {
     let numero = prompt("Insira a nota");
 
     if (numero >= 60) {
-        console.log("Aprovado");
+        alert("Aprovado");
     } else {
         if (numero <= 60) {
-            console.log("Reprovado")
+            alert("Reprovado")
         }
     }
-
+    gerarLog("Exercicios 4 execultado: " + new Date().toLocaleString() );
 }
 
 function exerc05() {
-
     let numero = prompt("Digite um número");
 
     if (numero > 0) {
-        console.log("Positivo");
+        alert("Positivo");
 
     }
     else {
         if (numero < 0) {
-            console.log("Negativo");
+            alert("Negativo");
         }
 
     }
+    gerarLog("Exercicios 5 execultado: " + new Date().toLocaleString() );
 }
 
 function exerc06() {
-
     let numero = prompt("Digite sua idade");
 
     if (numero >= 18) {
-        alert("adulto");
+        alert ("adulto");
 
     } else {
         if (numero >= 13) {
-            alert("adolecente");
+            alert ("adolecente");
         } else {
-            alert("criança");
-
+                alert ("criança");
+            
         }
 
     }
+    gerarLog("Exercicios 6 execultado: " + new Date().toLocaleString() );
+} 
 
+function exerc07 (){
+    debugger
+let numero1 =Number (prompt ("Digite o primeiro número:"));
+
+let operacao = prompt("Digite a operação (+, -, *, /):");
+
+let numero2 = Number(prompt("Digite o segundo número:"));
+
+
+if (operacao === "+") {
+    resultado = numero1 + numero2;
+} else if (operacao === "-") {
+    resultado = numero1 - numero2;
+} else if (operacao === "*") {
+    resultado = numero1 * numero2;
+} else if (operacao === "/") {
+    resultado = numero1 / numero2;
+}
+alert("O resultado é: " + resultado);
+
+gerarLog("Exercicios 7 execultado: " + new Date().toLocaleString() ); 
 }
 
-function exerc07() {
-
-    let numero1 = Number(prompt("Digite o primeiro número:"));
-
-    let operacao = prompt("Digite a operação (+, -, *, /):");
-
-    let numero2 = Number(prompt("Digite o segundo número:"));
-
-
-    if (operacao === "+") {
-        resultado = numero1 + numero2;
-    } else if (operacao === "-") {
-        resultado = numero1 - numero2;
-    } else if (operacao === "*") {
-        resultado = numero1 * numero2;
-    } else if (operacao === "/") {
-        resultado = numero1 / numero2
-    }
-    alert("O resultado é: " + resultado);
-
-}
-
-function exerc08() {
-
+function exerc08 (){
     let valor = prompt("Digite o valor de sua compra");
-
-    if (valor >= 100) {
-        valor = valor * 0, 10;
-        alert("Desconto aplicado")
+   
+    if (valor >=100 ) {
+        valor = valor * 0,10;
+        alert("Desconto aplicado!")
     } else {
         alert("desconto não aplicado")
     }
-
+    gerarLog("Exercicios 8 execultado: " + new Date().toLocaleString() );      
 }
 
-exerc08()
+function gerarLog(textodoLog) {
+
+    let Container = document.querySelector(".logs-container");
+
+    let paragraph = document.createElement("p");
+
+    paragraph.innerHTML = textodoLog;
+
+    Container.appendChild(paragraph);
+}
+gerarLog("Exercicios execultado: " + new Date().toLocaleString() );
 
 
 
