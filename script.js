@@ -17,7 +17,7 @@ console.log(`Meu nome é: ${nome}`); //Interpolação
 console.log(`Minha idade é: ${idade}`); //Interpolação
 console.log(`Meu minha cidade é: ${cidade}`); //Interpolação
 
-console.log(typeof idade)
+console.log(typeof idade);
 
 let n1 = 10;
 let n2 = 10;
